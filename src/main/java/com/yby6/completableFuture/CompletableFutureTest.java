@@ -37,7 +37,7 @@ public class CompletableFutureTest {
     private static Object result1() {
 
         try {
-            Thread.sleep(700);
+            Thread.sleep(1200);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
